@@ -19,3 +19,78 @@ color pallete: https://coolors.co/ff9f1c-ffbf69-cbf3f0-2ec4b6-ffffff-2c2c2c
 }
 
 
+/*---------------------------HAMBURGER NAV STARTS HERE---------------------------*/
+
+nav button {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: var(--sage);
+}
+
+nav {
+  background-color: transparent;
+  grid-column: 10;
+  justify-self: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  /*background-color: rgba(0, 0, 0, 0.2);*/
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+  position: absolute;
+  top: 119px;
+  right: 2.5%;
+  width: 95%;
+  background: var(--sage);
+  z-index: 1;
+}
+
+#hamburburBtn span:nth-child(1) {
+  display: block;
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  padding: 0.2rem 0.5rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+#hamburburBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburburBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#hamburburBtn.open span:nth-child(2) {
+  display: block;
+}
+
+/* =====================HAMBURBUR NAV ENDS HERE ====================== */

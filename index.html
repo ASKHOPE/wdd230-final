@@ -1,35 +1,115 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="description" content="WDD230 BYUI The Temple Inn & Suites Webstie">
-<meta name="author" content="Arnold Sujan Katru">
-<title>Home | Temple Inn &amp; Suites</title>
-<!--Fonts Google-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Varela+Round&display=swap" rel="stylesheet">
-<!--Style Sheets (Css)-->
 
-<link href="css/small.css" rel="stylesheet">
-<link href="css/medium.css" rel="stylesheet">
-<link href="css/large.css" rel="stylesheet">
-<!--Scripts (Java Script)-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="WDD230 BYUI The Temple Inn & Suites Webstie">
+    <meta name="author" content="Arnold Sujan Katru">
+    <title>Home | Temple Inn &amp; Suites</title>
+    <!--Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Varela+Round&display=swap" rel="stylesheet">
+    <!--Style Sheets (Css)-->
+
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <!--Scripts (Java Script)-->
 
 </head>
 
 
 <body>
     <header>
-
+        <div class="logo-container">
+            <img src="images/templein-logo.webp" alt="Temple Inn and Suites Logo" class="logo">
+        </div>
+        <div>
+            <h1> <a href="index.html"> Temple Inn &amp; Suites </a></h1>
+        </div>
+        <div>
+            <div class="social-header">
+                <a href="http://www.facebook.com/"><img src="images/facebook-logo.webp" alt="facebook logo" /></a>
+                <a href="http://www.twitter.com/"><img src="images/twitter-logo.webp" alt="facebook logo" /></a>
+                <a href="http://www.instagram.com/"><img src="images/instagram-logo.webp" alt="facebook logo" /></a>                
+            </div>
+        </div>
+        <nav>
+        <button id="hamburburBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="navicron">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="reserve.html">Reserveations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-<footer>
 
-</footer>
+    <main>
+        <div class="container-slideshow">
 
+        </div>
+        <div class="action-reservation">
+            <h3>Make a reservation today</h3>
+        </div>
+        <div class="container-weather">
+
+        </div>
+        <div class="container-reviews">
+
+        </div>
+
+        <div class="container-spotlight-temple">
+        <div id="spotlight-temple-image">
+        </div>
+        <div id="spotlight-temple-details"></div>
+        </div>
+
+
+    </main>
+
+
+
+    <footer>
+      <div class="footer-logo">
+        <img src="images/templein-logo.webp" alt="Temple Inn and Suites Logo" />
+      </div>
+
+      <div class="footer-lowend">
+        <hr />
+        <div class="copyright">
+          &copy; <span id="currentyear"></span> Temple Inn & Suites | Arnold
+          Sujan Katru | WDD 230 Final Project | <a href="http://www.contactus.html">Contact Us</a> |
+          <span id="last-updated"></span>
+        </div>
+        <div class="last-updated">
+          <p></p>
+        </div>
+        <p>
+          Weather provided by
+          <a href="https://openweathermap.org/">OpenWeatherMap</a>
+        </p>
+      </div>
+        <div class="social-footer">
+                <a href="http://www.facebook.com/"><img src="images/facebook-logo.webp" alt="facebook logo" /></a>
+                <a href="http://www.twitter.com/"><img src="images/twitter-logo.webp" alt="facebook logo" /></a>
+                <a href="http://www.instagram.com/"><img src="images/instagram-logo.webp" alt="facebook logo" /></a>                
+            </div>
+
+        <div class="maps-google">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34262.16653951168!2d81.7889915448602!3d16.998395520487406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37a3bc3d4b9f89%3A0xf50c0a944b40fb03!2sBaba%20Nagar%2C%20Venkateswara%20Nagar%2C%20Rajahmundry%2C%20Andhra%20Pradesh%20533106!5e0!3m2!1sen!2sin!4v1649162495773!5m2!1sen!2sin" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+
+    <script src="scripts/lastupdated.js"></script>
+    <script src="scripts/burger-menu.js"></script>
 
 </body>
+
 </html>
