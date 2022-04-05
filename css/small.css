@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Varela+Round&display=swap');
+/*
+font-family: 'DM Sans', sans-serif;
+font-family: 'Varela Round', sans-serif;
+color pallete: https://coolors.co/ff9f1c-ffbf69-cbf3f0-2ec4b6-ffffff-2c2c2c
+/* Global Varibles in root*/
+
+:root{
+    /* Fonts*/
+    --heading-font:'DM Sans', sans-serif;
+    --paragraph-font: 'Varela Round', sans-serif;
+    /*Colors*/
+    --oragne-peel:#ff9f1c;
+    --mellow-apricot:#ffbf69;
+    --light-cyan:#CBF3F0;
+    --tiffany-blue:#2EC4B6;
+    --white:#ffffff;
+    --jet:#2C2C2C;
+}
