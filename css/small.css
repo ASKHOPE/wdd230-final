@@ -400,9 +400,13 @@ div.services-lister {
 
 
 div.services-container , div.amenities-container {
-  background-color:blue;
+  background-color:aliceblue;
 }
 
 ul.services-list-container > li , ul.amenities-list-container > li{
-background-color : white;
+background-color : transparent;
+}
+
+img#amenities-img, img#services-img{
+width: 100%;
 }

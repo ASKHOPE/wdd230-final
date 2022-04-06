@@ -92,4 +92,16 @@
     grid-gap: 6%;
 }
   }
+
+img#amenities-img, img#services-img{
+width: 50%;
+}
+
+div.services-container{
+      display: flex;
+}
+div.amenities-container{
+  display: flex;
+  flex-direction: row-reverse;
+}
 }
