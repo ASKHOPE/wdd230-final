@@ -127,7 +127,34 @@
           >
         </h3>
       </div>
-      <div class="container-weather"></div>
+      <div class="container-weather">
+        <section id="weather"> 
+      <h3 class="smallshown">San Diego Temple Weather</h3>
+      <div id="wthralert">
+      </div>
+      <img src="#" alt="" id="weathericon" />
+      <div id="weatherdata">
+        <p id="temp"><span id="tempnow"></span>&deg;F</p>
+        <p id="humidspace">Humidity <span id="humidity"></span>%</p>
+        <p id="weatherdesc"></p>
+      </div>
+      <p id="dailytitle">Daily Forecast</p>
+      <div id="daily">
+        <div id="day1">
+          <p id="ddate1"></p>
+          <p class="daytemp"><span id="daytemp1"></span>&deg;F</p>
+        </div>
+        <div id="day2">
+          <p id="ddate2"></p>
+          <p class="daytemp"><span id="daytemp2"></span>&deg;F</p>
+        </div>
+        <div id="day3">
+          <p id="ddate3"></p>
+          <p class="daytemp"><span id="daytemp3"></span>&deg;F</p>
+        </div>
+      </div>
+    </section>
+      </div>
       <div class="container-reviews"></div>
 
       <div class="container-spotlight-temple">
@@ -210,8 +237,9 @@
       </div>
     </footer>
 
-    <script src="scripts/lastupdated.js"></script>
-    <script src="scripts/burger-menu.js"></script>
-    <script src="scripts/slide-image.js"></script>
+    <script src="scripts/lastupdated.js" defer async></script>
+    <script src="scripts/burger-menu.js" defer async></script>
+    <script src="scripts/slide-image.js" defer async></script>
+    <script src="scritps/weatherforecast.js" defer async></script>
   </body>
 </html>
