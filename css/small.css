@@ -378,7 +378,7 @@ section.contact-us-page > div > div > form {
 }
 
 section.contact-us-page > div{
-  background: var(--oragne-peel);
+  background: var(--transparent);
 
 }
 
@@ -403,6 +403,9 @@ section.contact-us-page > div > p {
   grid-row: 1;
   text-align: center;
   border-radius: 3px;
+      padding: 5%;
+    background: white;
+        margin: auto;
 }
 
 section.contact-us-page > div > iframe {

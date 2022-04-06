@@ -83,13 +83,13 @@
     }
 
     fieldset#contact-form-2.persInfo{
-      font-size:1.5em;
+      font-size:1.3em;
     }
     
 
   main > section.contact-us-page > div {
     font-size: 1em;
-    grid-gap: 6%;
+    grid-gap: 0%;
 }
   }
 
@@ -117,6 +117,6 @@ div.subpages-services{
     max-width: 80%;
     margin: auto;
     text-align: center;
-    flex-direction: row;
+    flex-direction: ;
 }
 }
