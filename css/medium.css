@@ -60,8 +60,8 @@
     color: var(--jet);
     text-align: center;
   }
-  li,
-  ul#navicron {
+  
+  ul#navicron, ul#navicron > li {
     background-color: var(--oragne-peel);
     border-radius: 15%;
   }

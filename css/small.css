@@ -51,8 +51,8 @@ nav ul li a {
   display: block;
   padding: 0.8rem 2vw;
   text-decoration: none;
-  color: white; /*chagne this to white*/
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  color: white; /*chagne this to white
+  border-top: 1px solid rgba(0, 0, 0, 0.5);*/
 }
 
 nav ul li.active a {
@@ -433,4 +433,35 @@ div.full-time-missionary-services > img{
 
 div.view-xl-map{
       display: none;
+}
+
+div.reception-banner > img{
+  width: 100%;
+}
+
+div.menu_options{
+    width: 90%;
+    margin: auto;
+        font-family: var(--paragraph-font);
+}
+div.menu_options > h2{
+  text-align: center;
+}
+
+div.appetizers,div.menu1, div.menu2,div.menu3 {
+  margin: auto;
+    text-align: center;
+}
+
+div.appetizers >ul > li, div.menu1 > ul > li, div.menu2 > ul > li ,div.menu3 > ul > li{
+    list-style-type: none;
+    margin-left: -5%;
+
+}
+
+
+div.appetizers > img,div.menu1 > img, div.menu2 > img,div.menu3 > img {
+  margin: auto;
+    text-align: center;
+    width: 100%;
 }
