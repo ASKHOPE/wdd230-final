@@ -68,7 +68,7 @@
   ul#navicron,
   ul#navicron > li {
     background-color: var(--jet);
-    border-radius: 15%;
+    border-radius: 15px;
   }
 
   header {
@@ -78,11 +78,14 @@
     margin: inherit;
   }
 
+  h1 > a {
+    font-size: 1.7em;
+}
   h1 {
     font-size: 1.5em;
     text-align: center;
     align-items: center;
-    padding-top: 5%;
+    padding-top: 3%;
   }
 
   div.logo-container {
