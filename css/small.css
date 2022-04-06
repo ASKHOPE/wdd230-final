@@ -430,3 +430,7 @@ div.reception-service > img{
 div.full-time-missionary-services > img{
   width: 100%;
 }
+
+div.view-xl-map{
+      display: none;
+}
