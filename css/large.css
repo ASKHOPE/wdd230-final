@@ -93,15 +93,22 @@
 }
   }
 
-img#amenities-img, img#services-img{
-width: 50%;
+img#amenities-img{
+width: 100%;
+    grid-column: 1;
+    grid-row: 1;
 }
 
+ img#services-img{
+   width:100%;
+ }
+
 div.services-container{
-      display: flex;
+      display: grid;
+      grid-template-columns: 50% 50%;
 }
 div.amenities-container{
-  display: flex;
-  flex-direction: row-reverse;
+   display: grid;
+      grid-template-columns: 50% 50%;
 }
 }

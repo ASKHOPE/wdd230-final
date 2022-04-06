@@ -410,3 +410,8 @@ background-color : transparent;
 img#amenities-img, img#services-img{
 width: 100%;
 }
+
+
+ul.services-list-container >li , ul.amenities-list-container >li{
+  font-family: var(--paragraph-font);
+}
