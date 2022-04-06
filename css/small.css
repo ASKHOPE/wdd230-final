@@ -517,11 +517,11 @@ div.images-suites > img:nth-child(4) {
 div.images-suites > img {
   width: 100%;
 }
-ul.temple-suite-services{
-      background: blueviolet;
-    font-family: var(--paragraph-font);
+ul.temple-suite-services {
+  background: blueviolet;
+  font-family: var(--paragraph-font);
 }
 
-div.suits > form{
-    margin-left: -10%;
+div.suits > form {
+  margin-left: -10%;
 }
