@@ -456,12 +456,12 @@ div.appetizers,div.menu1, div.menu2,div.menu3 {
 div.appetizers >ul > li, div.menu1 > ul > li, div.menu2 > ul > li ,div.menu3 > ul > li{
     list-style-type: none;
     margin-left: -5%;
-
+  font-size: 1.1em;
 }
 
 
 div.appetizers > img,div.menu1 > img, div.menu2 > img,div.menu3 > img {
   margin: auto;
     text-align: center;
-    width: 100%;
+    width: 80%; /*100*/
 }
