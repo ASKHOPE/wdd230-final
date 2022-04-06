@@ -1,134 +1,168 @@
 @media only screen and (min-width: 35rem) {
-
-div.container-slideshow{
+  div.container-slideshow {
     display: grid;
     grid-template-columns: 30% 1fr;
-}
-div#spotlight-temple-image{
-grid-column: 1;
-/*width:relative;*/
+  }
+  div#spotlight-temple-image {
+    grid-column: 1;
+    /*width:relative;*/
     margin: auto;
-}
-div#spotlight-temple-details{
-grid-column: 2;
-padding: 10px;
-font-size: 14px;
-}
+  }
+  div#spotlight-temple-details {
+    grid-column: 2;
+    padding: 10px;
+    font-size: 14px;
+  }
 
-div#spotlight-temple-image > img{
+  div#spotlight-temple-image > img {
     width: 100%;
-}
+  }
 
-div#small-map{
+  div#small-map {
     display: none;
-}
+  }
 
-div#medium-map{
-  display:block;
-}
+  div#medium-map {
+    display: block;
+  }
 
-div.social-footer{
+  div.social-footer {
     position: absolute;
-    margin-top:20%;
-}
-div.social-footer > a > img{
+    margin-top: 20%;
+  }
+  div.social-footer > a > img {
     width: 75%;
-}
+  }
 
+  /* +++++ NAVBAR OVERHAUL ++++++*/
 
-
-/* +++++ NAVBAR OVERHAUL ++++++*/
-
-button#hamburburBtn{
+  button#hamburburBtn {
     display: none;
-}
+  }
 
-ul#navicron {
+  ul#navicron {
     /*display: flex;
     flex-direction: row;*/
 
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-row: 2;
     grid-column: 1/4;
     margin-left: 6%;
-}
+  }
 
-nav{
-    grid-column:1/4;
+  nav {
+    grid-column: 1/4;
     grid-row: auto;
+  }
 
-}
-
-nav ul li a {
+  nav ul li a {
     color: var(--jet);
     text-align: center;
-
-    
-}
-li ,ul{
-    background-color:var(--oragne-peel);
+  }
+  li,
+  ul {
+    background-color: var(--oragne-peel);
     border-radius: 15%;
-}
+  }
 
-header{
-  grid-template-columns:20% 2fr 1fr;
-  grid-template-rows: 50% 50%;
-  max-width: 95%;
+  header {
+    grid-template-columns: 20% 2fr 1fr;
+    grid-template-rows: 50% 50%;
+    max-width: 95%;
     margin: inherit;
-}
+  }
 
-h1{
-    font-size:1.5em;
-    text-align:center;
-    align-items:center;
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+    align-items: center;
     padding-top: 5%;
-}
+  }
 
+  div.logo-container {
+    grid-column: 1;
+    grid-row: 1;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+  }
 
-div.logo-container {
-  grid-column: 1;
-  grid-row: 1;
-  align-items: center;
-  align-self: center;
-  margin:auto;
-}
-
-img.logo{
+  img.logo {
     padding: 10%;
-}
+  }
 
-div.title{
-  margin-left: 5%;
-margin-top: 2%;
-  grid-column: 2;
-  grid-row:1;
-}
+  div.title {
+    margin-left: 5%;
+    margin-top: 2%;
+    grid-column: 2;
+    grid-row: 1;
+  }
 
-div.social-header{
-  display:flex;
-  flex-direction: row;
-  grid-column: 3;
-  grid-row: 1;
-  text-align: center;
- margin-top: 15%;
-}
-div.social-header > a > img{
+  div.social-header {
+    display: flex;
+    flex-direction: row;
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+    margin-top: 15%;
+  }
+  div.social-header > a > img {
     width: 75%;
-}
+  }
 
-div.footer-lowend{
-    margin:auto;
+  div.footer-lowend {
+    margin: auto;
     max-width: 80%;
-}
-div.social-footer{
-   margin:auto;
-    max-width: 80%; 
-}
+  }
+  div.social-footer {
+    margin: auto;
+    max-width: 80%;
+  }
 
-div.social-footer {
+  div.social-footer {
     position: relative;
     margin: auto;
-}
+  }
 
+  div.reserveForm {
+    margin: auto;
+    width: 75%;
+  }
+
+  div.reservations {
+    width: 75%;
+    margin: auto;
+  }
+
+  .contact-us-page > div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+  }
+
+  section.contact-us-page > div > div {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  section.contact-us-page > div > form {
+    grid-row: 2;
+    grid-column: 1/3;
+    margin: auto;
+  }
+
+  .contact-us-page > div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+  }
 }
