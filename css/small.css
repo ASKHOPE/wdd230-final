@@ -261,3 +261,7 @@ div.social-footer{
     margin-top: 27%;
 }}
 
+li#extended-services > a:hover{
+  display: block;
+  
+}

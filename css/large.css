@@ -1,5 +1,12 @@
-@media only screen and (min-width: 1200px) {
-
-
+@media only screen and (min-width: 800px) {
+header {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+div.logo-container{
+    margin-left: 55%;
+}
+div.social-header{
+       width: 80%;
+}
     
 }
