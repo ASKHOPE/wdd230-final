@@ -181,4 +181,14 @@ div.full-time-missionary-services > img{
   width: 50%;
 }
 
+
+div.suits{
+      display: grid;
+      grid-template-columns: 45% 55%;
+
+    /*grid-auto-columns: auto;*/
+        max-width: 80%;
+    margin: auto;
+}
+
 }
