@@ -61,13 +61,13 @@
   }
 
   nav ul li a {
-    color: var(--jet);
+    color: var(--white);
     text-align: center;
   }
 
   ul#navicron,
   ul#navicron > li {
-    background-color: var(--oragne-peel);
+    background-color: var(--jet);
     border-radius: 15%;
   }
 

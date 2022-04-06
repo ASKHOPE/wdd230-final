@@ -18,6 +18,14 @@ color pallete: https://coolors.co/ff9f1c-ffbf69-cbf3f0-2ec4b6-ffffff-2c2c2c
   --jet: #2c2c2c;
 }
 
+html{
+      background: var(--light-cyan);
+}
+body{
+      background: var(--mellow-apricot);
+}
+
+
 html,
 main {
   max-width: 90%;
@@ -76,8 +84,9 @@ nav ul.open {
   width: 95%;
   margin: 0 auto;
   z-index: 1;
-  background-color: var(--tiffany-blue);
+  background-color: var(--jet);
   border-radius: 3px;
+  text-align: center;
 }
 
 #hamburburBtn span:nth-child(1) {
@@ -231,6 +240,8 @@ footer {
 }
 
 hr {
+  color:black;
+
   grid-column: 1/2;
 }
 
@@ -325,22 +336,23 @@ div.reservations {
   color: black;
   /*font-weight: bold;*/
   font-family: var(--paragraph-font);
-  background-color: rgba(255, 238, 0, 0.151); /* Chage this*/
+  background-color: var(--tiffany-blue); /* Chage this*/
   border-radius: 5px;
 }
 
 fieldset.persInfo > legend#pi,
 fieldset.dateInfo > legend,
 fieldset.addInfo > legend {
+  color:white;
   padding: 1px 5px 1px 5px;
-  background: red; /* Chage this*/
+  background: var(--jet); /* Chage this*/
   border-radius: 5px;
 }
 
 #subbutton {
   /*padding: 5%;*/
-  color: white;
-  background-color: orange; /* Chage this*/
+  color: var(--jet);
+  background-color: var(--white); /* Chage this*/
   font-size: 25px;
   margin: 4% 22%;
   font-weight: bold;
@@ -365,6 +377,11 @@ section.contact-us-page > div > div > form {
   margin: 0 auto;
 }
 
+section.contact-us-page > div{
+  background: var(--oragne-peel);
+
+}
+
 section.contact-us-page > h1 {
   text-align: center;
 }
@@ -385,6 +402,7 @@ section.contact-us-page > div > p {
   grid-column: 1;
   grid-row: 1;
   text-align: center;
+  border-radius: 3px;
 }
 
 section.contact-us-page > div > iframe {
@@ -436,6 +454,16 @@ div.subpages-services {
 div.reception-service > img {
   width: 100%;
 }
+
+div.reception-service,div.full-time-missionary-services{
+      background: var(--oragne-peel);
+}
+
+div.reception-service > p,div.full-time-missionary-services > p,h3{
+      background: var(--white);
+}
+
+
 div.full-time-missionary-services > img {
   width: 100%;
 }
@@ -523,12 +551,20 @@ div.images-suites > img {
   width: 100%;
 }
 ul.temple-suite-services {
-  background: blueviolet;
   font-family: var(--paragraph-font);
 }
 
 div.suits > form {
   margin-left: -10%;
+}
+
+div.missionary-suites{
+  background-color: #f5f5f5;
+      margin: -10px;
+        max-width: 108%;
+    margin-left: -9%;
+        padding: 5%;
+            margin-bottom: 10%;
 }
 
 
@@ -544,7 +580,7 @@ div.suits > form {
     width: 100%;
   }
   div.temples > section {
-    background: burlywood;/*Change color*/
+    background: white;/*Change color*/
     padding: 5%;
     border-radius: 5px;
     margin-bottom: 5%;
