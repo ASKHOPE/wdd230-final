@@ -525,3 +525,23 @@ ul.temple-suite-services {
 div.suits > form {
   margin-left: -10%;
 }
+
+
+ div.temples{
+   display:flex;
+   flex-direction: column;  
+  }
+  img.like{
+    width: 10%;
+  }
+
+  div.temples > section > img.temple{
+    width: 100%;
+  }
+  div.temples > section {
+    background: burlywood;/*Change color*/
+    padding: 5%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+  }
+  

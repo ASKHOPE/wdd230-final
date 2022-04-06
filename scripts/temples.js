@@ -32,6 +32,7 @@ function displayTemples(temple) {
   let num_likes = Number(window.localStorage.getItem(temple.templeName));
 
   image.setAttribute("src", temple.imageUrl);
+  image.setAttribute("class", "temple");
   image.setAttribute("alt", "images/like.png");
   image.setAttribute("loading", "lazy");
 

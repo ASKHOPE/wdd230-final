@@ -191,4 +191,15 @@
     margin: auto;
     column-gap: 10%;
   }
+
+  div.temples{
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3%;
+  }
+  div.temples > section > img.temple{
+    width: 100%;
+  }
+
+
 }
