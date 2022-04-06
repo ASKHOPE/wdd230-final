@@ -165,4 +165,20 @@
     max-width: 80%;
     margin: auto;
   }
+
+  div.subpages-services{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    max-width: 80%;
+  }
+ 
+  div.reception-service > img{
+  width: 50%;
+}
+div.full-time-missionary-services > img{
+  width: 50%;
+}
+
 }

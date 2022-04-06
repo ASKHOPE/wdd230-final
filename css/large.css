@@ -111,4 +111,12 @@ div.amenities-container{
    display: grid;
       grid-template-columns: 50% 50%;
 }
+
+div.subpages-services{
+  display: flex;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    flex-direction: row;
+}
 }

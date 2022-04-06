@@ -395,9 +395,11 @@ div.services-lister {
   display: flex;
   flex-direction: column;
   margin: auto;
-  max-width: 80%;
+  max-width: 90%;
 }
-
+div.services-lister > h3{
+  text-align: center;
+}
 
 div.services-container , div.amenities-container {
   background-color:aliceblue;
@@ -414,4 +416,17 @@ width: 100%;
 
 ul.services-list-container >li , ul.amenities-list-container >li{
   font-family: var(--paragraph-font);
+}
+
+div.subpages-services{
+      display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 95%;
+}
+div.reception-service > img{
+  width: 100%;
+}
+div.full-time-missionary-services > img{
+  width: 100%;
 }
