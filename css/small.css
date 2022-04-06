@@ -761,3 +761,7 @@ section#weather{
 div#day1, div#day2, div#day3{
   border:1px solid black;
 }
+
+div.footer-lowend > p > a > img{
+  width:10%;
+}
