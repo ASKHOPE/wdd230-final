@@ -61,7 +61,7 @@
     text-align: center;
   }
   li,
-  ul {
+  ul#navicron {
     background-color: var(--oragne-peel);
     border-radius: 15%;
   }

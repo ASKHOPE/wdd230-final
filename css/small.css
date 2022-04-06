@@ -390,3 +390,19 @@ section.contact-us-page > div > iframe {
 select#homecountry {
   width: 202px;
 }
+
+div.services-lister {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 80%;
+}
+
+
+div.services-container , div.amenities-container {
+  background-color:blue;
+}
+
+ul.services-list-container > li , ul.amenities-list-container > li{
+background-color : white;
+}
