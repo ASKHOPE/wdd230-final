@@ -217,6 +217,8 @@ h3#reservation-action {
 h3#reservation-action > a{
   padding: 0%;
   background-color: var(--white);
+      text-decoration: none;
+    color: var(--jet);
 
 }
 
@@ -488,6 +490,7 @@ div.reception-service > p> a,div.full-time-missionary-services > p >a{
   width: 50%;
   color: white;
   background:var(--jet);
+  text-decoration: none;
   
 }
 

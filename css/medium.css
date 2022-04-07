@@ -243,10 +243,7 @@ img#weathericon{
 }
 
 
-h3#reservation-action > a {
-    padding: 2%;
-    background-color: var(--white);
-}
+
 /*NAV FIX*/
 #primary_nav_wrap
 {
@@ -261,6 +258,10 @@ h3#reservation-action > a {
 	/*float:left;
 	margin:0;*/
 	padding:0
+}
+h3#reservation-action > a {
+    padding: 2%;
+    background-color: var(--white);
 }
 }
 
