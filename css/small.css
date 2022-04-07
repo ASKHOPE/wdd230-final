@@ -215,7 +215,7 @@ h3#reservation-action {
   padding: 2%;
 }
 h3#reservation-action > a{
-  padding: 2%;
+  padding: 0%;
   background-color: var(--white);
 
 }
@@ -768,9 +768,13 @@ div.footer-lowend > p > a > img{
   width:10%;
 }
 
+#primary_nav_wrap ul {
+  position:absolute;
+}
 
 
-/*NAV FIX*/
+
+/*NAV FIX
 #primary_nav_wrap
 {
 	margin-top:15px
@@ -780,7 +784,7 @@ div.footer-lowend > p > a > img{
 {
 	list-style:none;
 	position:relative;
-	/*float:left;*/
+	/*float:left;
 	margin:0;
 	padding:0
 }
@@ -796,7 +800,7 @@ div.footer-lowend > p > a > img{
 #primary_nav_wrap ul li
 {
 	position:relative;
-	/*float:left;*/
+	/*float:left;
 	margin:0;
 	padding:0
 }
@@ -824,7 +828,8 @@ div.footer-lowend > p > a > img{
 #primary_nav_wrap ul ul li
 {
 	float:none;
-	width:200px
+	width:200px;
+  background-color:var(--jet);
 }
 
 #primary_nav_wrap ul ul a
