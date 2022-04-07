@@ -56,7 +56,7 @@ fetch(apiURL)
       // Add/append the section(amsg) with the b2 element
       amsg.appendChild(b2);
       // Add/append the existing HTML div with the cards class with the section(card)
-      document.querySelector("#wthralert").appendChild(amsg);
+      document.querySelector("#weatheralert").appendChild(amsg);
     }
 
     function closealert() {}
