@@ -29,7 +29,7 @@ function displayTemples(temple) {
   let clos_schedule = document.createElement("p");
   let like = document.createElement("img");
   const likes_display = document.createElement("span");
-  let num_likes = Number(window.localStorage.getItem(temple.templeName));
+  let like_count = Number(window.localStorage.getItem(temple.templeName));
 
   image.setAttribute("src", temple.imageUrl);
   image.setAttribute("class", "temple");
@@ -50,7 +50,7 @@ function displayTemples(temple) {
   ord_schedule.textContent = "Ordinance schedule: " + temple.ordinance_schedule;
   ses_schedule.textContent = "Session schedule: " + temple.session_schedule;
   clos_schedule.textContent = "Closure schedule: " + temple.closure_schedule;
-  likes_display.textContent = " " + num_likes + " likes.";
+  likes_display.textContent = " " + like_count + " likes.";
 
   card.appendChild(image);
   card.appendChild(temple_name);
@@ -71,10 +71,9 @@ function displayTemples(temple) {
 
   function addLike() {
     // increment the number of likes.
-    num_likes++;
+    like_count++;
     // store the new number of likes value
-
-    localStorage.setItem(like.id, num_likes);
+    localStorage.setItem(like.id, like_count);
     window.location.reload();
   }
 
